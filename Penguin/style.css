@@ -3,6 +3,16 @@
   margin: 0;
   padding: 0;
 }
+.penguin {
+  position: absolute;
+  left: 10%;
+  width: 450px;
+  height: 450px;
+  /**Variable**/
+  --penguin-beak: orange;
+  --penguin-belly: gray;
+  --penguin-skin: black;
+}
 .left-eye {
   position: absolute;
   left: 19%;
@@ -43,7 +53,7 @@
   position: absolute;
   height: 8%;
   width: 17%;
-  background: var(--penguin-beak, orange);
+  background: var(--penguin-beak, yellow);
   left: 39%;
   top: 60%;
   border-radius: 50%;
@@ -52,7 +62,7 @@
   position: absolute;
   height: 7%;
   width: 11%;
-  background: var(--penguin-beak, orange);
+  background: var(--penguin-beak, yellow);
   left: 42%;
   top: 66%;
   border-radius: 50%;
@@ -89,7 +99,7 @@
 .left-cheek {
   width: 50%;
   height: 60%;
-  background: gray;
+  background: var(--penguin-belly, white);
   position: absolute;
   border-radius: 50% 45% 0% 40%;
   left: 5%;
@@ -99,7 +109,7 @@
 .right-cheek {
   width: 50%;
   height: 60%;
-  background: gray;
+  background: var(--penguin-belly, white);
   position: absolute;
   border-radius: 45% 50% 40% 0%;
   left: 45%;
@@ -110,7 +120,7 @@
   height: 110%;
   width: 110%;
   position: absolute;
-  background: gray;
+  background: var(--penguin-belly, white);
   top: 75%;
   left: -5%;
   border-radius: 80% 80% 100% 100%;
@@ -120,7 +130,7 @@
   height: 125%;
   width: 124%;
   position: absolute;
-  background: black;
+  background: var(--penguin-skin, gray);
   top: 70%;
   left: -12%;
   border-radius: 85% 85% 100% 100%;
@@ -130,23 +140,18 @@
   position: absolute;
   width: 60%;
   height: 55%;
-  background: black;
+  background: var(--penguin-skin, gray);
   z-index: -5;
   border-radius: 100% 100% 90% 90%;
   top: 10%;
   left: 25%;
 }
-.penguin {
-  position: absolute;
-  left: 10%;
-  width: 450px;
-  height: 450px;
-}
+
 .left-hand {
   position: absolute;
   top: 52%;
   left: 76%;
-  background: black;
+  background: var(--penguin-skin, gray);
   width: 20%;
   height: 40%;
   border-radius: 30% 30% 30% 120%;
@@ -157,7 +162,7 @@
   position: absolute;
   width: 20%;
   height: 40%;
-  background: black;
+  background: var(--penguin-skin, gray);
   top: 30%;
   left: 1%;
   transform: rotate(130deg);
@@ -168,7 +173,7 @@
   position: absolute;
   width: 15%;
   height: 20%;
-  background: orange;
+  background: var(--penguin-beak, orange);
   transform: rotate(60deg);
   top: 107%;
   left: 30%;
@@ -179,7 +184,7 @@
   position: absolute;
   width: 15%;
   height: 20%;
-  background: orange;
+  background: var(--penguin-beak, orange);
   transform: rotate(-59deg);
   top: 108%;
   left: 60%;
