@@ -78,3 +78,31 @@
   border-radius: 20% 20% 45% 45%;
   z-index: -1;
 }
+.left-cheek {
+  width: 40%;
+  height: 55%;
+  background: gray;
+  position: absolute;
+  border-radius: 50% 50% 0% 60%;
+  left: 8%;
+  top: 25%;
+  z-index: -3;
+  /* position: absolute;
+  top: 15%;
+  left: 35%;
+  background: var(--penguin-belly, gray);
+  width: 60%;
+  height: 70%;
+  border-radius: 70% 70% 60% 60%;
+  z-index: -3; */
+}
+.right-cheek {
+  width: 40%;
+  height: 55%;
+  background: rgb(202, 199, 199);
+  position: absolute;
+  border-radius: 50% 50% 60% 0%;
+  left: 47%;
+  top: 25%;
+  z-index: -3;
+}
