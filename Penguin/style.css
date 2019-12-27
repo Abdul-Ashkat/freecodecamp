@@ -85,17 +85,24 @@
   width: 10%;
   border-radius: 50%;
 }
-.awe {
-  /* position: absolute;
+
+/* .awe {
+  position: absolute;
   left: 40%;
   top: 60%;
   background-color: black;
   height: 18%;
   width: 15%;
-  border: 3px solid rgb(240, 203, 101);
-  border-radius: 20% 20% 45% 45%;
-  z-index: -1; */
-}
+  border-top: 8px;
+  border-right: 0px;
+  border-bottom: 8px;
+  border-left: 0px;
+  border-style: solid;
+  border-color: rgb(252, 188, 14);
+  border-radius: 45% 45% 45% 45%;
+  z-index: -1;
+} */
+
 .left-cheek {
   width: 50%;
   height: 60%;
