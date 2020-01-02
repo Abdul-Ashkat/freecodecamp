@@ -205,7 +205,7 @@
 }
 @keyframes wave {
   10% {
-    transform: rotate(110deg);
+    transform: rotate(130deg);
   }
   20% {
     transform: rotate(130deg);
